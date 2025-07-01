@@ -6,9 +6,9 @@ Attempting to bind to HOST environment variable: 0.0.0.0
 If this was unintentional, check that you haven't mistakenly set it in your shell.
 Learn more here: https://cra.link/advanced-config
 
-(node:19053) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:19539) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:19053) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:19539) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
 Compiled successfully!
@@ -21,4 +21,387 @@ You can now view react-kavia in the browser.
 Note that the development build is not optimized.
 To create a production build, use npm run build.
 
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 875
+ERROR in Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 875
+
+ERROR in Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 875
+
+ERROR in main
+Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 875
+
+ERROR in Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 875
+
+ERROR in Error: Child compilation failed:
+  Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-  80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory   description file): SyntaxError: /home/kavia/workspace/code-generation/staffan  s-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directo  ry description file): SyntaxError: /home/kavia/workspace/code-generation/staff  ans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (direc  tory description file): SyntaxError: /home/kavia/workspace/code-generation/sta  ffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (dir  ectory description file): SyntaxError: /home/kavia/workspace/code-generation/s  taffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (d  irectory description file): SyntaxError: Unexpected token = in JSON at positio  n 875
+  ModuleNotFoundError: Module not found: SyntaxError: /home/kavia/workspace/code  -generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/pa  ckage.json (directory description file): SyntaxError: /home/kavia/workspace/co  de-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/  package.json (directory description file): SyntaxError: /home/kavia/workspace/  code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_fronten  d/package.json (directory description file): SyntaxError: /home/kavia/workspac  e/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_front  end/package.json (directory description file): SyntaxError: /home/kavia/worksp  ace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_fro  ntend/package.json (directory description file): SyntaxError: Unexpected token   = in JSON at position 875
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/Compilation.js:2123:28      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :923:13
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :339:22
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :520:22
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :155:10
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :745:23
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/neo-async/async.js:2830:7
+      at done (/home/kavia/workspace/code-generation/staffans-80th-celebration-q  uiz-98783-bd482d85/quiz_app_frontend/node_modules/neo-async/async.js:2925:13)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :1192:23
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:6  20:22
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:7  16:21
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:24:1)
+      at done (/home/kavia/workspace/code-generation/staffans-80th-celebration-q  uiz-98783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/cache/ResolverCa  chePlugin.js:355:13)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/cache/ResolverCachePlu  gin.js:195:22
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:7  16:21
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:7  16:21
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:24:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/DescriptionFi  lePlugin.js:58:24
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/DescriptionFi  leUtils.js:146:21
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/forEachBail.j  s:39:13
+      at onJson (/home/kavia/workspace/code-generation/staffans-80th-celebration  -quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Descr  iptionFileUtils.js:131:14)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/DescriptionFi  leUtils.js:81:15
+      at runCallbacks (/home/kavia/workspace/code-generation/staffans-80th-celeb  ration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib  /CachedInputFileSystem.js:52:4)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/CachedInputFi  leSystem.js:279:5
+      at Array.<anonymous> (/home/kavia/workspace/code-generation/staffans-80th-  celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolv  e/lib/CachedInputFileSystem.js:596:17)
+      at runCallbacks (/home/kavia/workspace/code-generation/staffans-80th-celeb  ration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib  /CachedInputFileSystem.js:45:15)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/CachedInputFi  leSystem.js:279:5
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/graceful-fs/graceful-fs.js:123:16
+      at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read  _file_context:68:3)
+  
+  - Compilation.js:2123 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:2123:28
+  
+  - NormalModuleFactory.js:923 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:923:13
+  
+  
+  - NormalModuleFactory.js:339 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:339:22
+  
+  
+  - NormalModuleFactory.js:520 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:520:22
+  
+  - NormalModuleFactory.js:155 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:155:10
+  
+  - NormalModuleFactory.js:745 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:745:23
+  
+  - async.js:2830 
+    [quiz_app_frontend]/[neo-async]/async.js:2830:7
+  
+  - async.js:2925 done
+    [quiz_app_frontend]/[neo-async]/async.js:2925:13
+  
+  - NormalModuleFactory.js:1192 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:1192:23
+  
+  - Resolver.js:620 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:620:22
+  
+  - Resolver.js:716 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - ResolverCachePlugin.js:355 done
+    [quiz_app_frontend]/[webpack]/lib/cache/ResolverCachePlugin.js:355:13
+  
+  - ResolverCachePlugin.js:195 
+    [quiz_app_frontend]/[webpack]/lib/cache/ResolverCachePlugin.js:195:22
+  
+  - Resolver.js:716 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - Resolver.js:716 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - DescriptionFilePlugin.js:58 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:58:24
+  
+  - DescriptionFileUtils.js:146 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFileUtils.js:146:21
+  
+  - forEachBail.js:39 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/forEachBail.js:39:13
+  
+  - DescriptionFileUtils.js:131 onJson
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFileUtils.js:131:14
+  
+  - DescriptionFileUtils.js:81 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFileUtils.js:81:15
+  
+  - CachedInputFileSystem.js:52 runCallbacks
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:52:4
+  
+  - CachedInputFileSystem.js:279 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - CachedInputFileSystem.js:596 Array.<anonymous>
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:596:17
+  
+  - CachedInputFileSystem.js:45 runCallbacks
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:45:15
+  
+  - CachedInputFileSystem.js:279 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - graceful-fs.js:123 
+    [quiz_app_frontend]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - read_file_context:68 FSReqCallback.readFileAfterClose [as oncomplete]
+    node:internal/fs/read_file_context:68:3
+  
+  - child-compiler.js:211 
+    [quiz_app_frontend]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:629 finalCallback
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:629:5
+  
+  - Compiler.js:664 
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:664:11
+  
+  - Compiler.js:1350 
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:1350:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [quiz_app_frontend]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1346 
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:1346:33
+  
+  - Compilation.js:2938 finalCallback
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:2938:11
+  
+  - Compilation.js:3251 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:3251:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [quiz_app_frontend]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3244 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:3244:38
+  
+  
+  - Compilation.js:540 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:540:10
+  
+  - SourceMapDevToolPlugin.js:607 
+    [quiz_app_frontend]/[webpack]/lib/SourceMapDevToolPlugin.js:607:10
+  
+  - async.js:2830 
+    [quiz_app_frontend]/[neo-async]/async.js:2830:7
+  
+  - async.js:2857 Object.each
+    [quiz_app_frontend]/[neo-async]/async.js:2857:9
+  
+  - SourceMapDevToolPlugin.js:423 
+    [quiz_app_frontend]/[webpack]/lib/SourceMapDevToolPlugin.js:423:17
+  
+  - async.js:2830 
+    [quiz_app_frontend]/[neo-async]/async.js:2830:7
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack compiled with 6 errors
+Compiling...
+Failed to compile.
+
+Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 626
+ERROR in Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 626
+
+ERROR in Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 626
+
+ERROR in main
+Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 626
+
+ERROR in Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory description file): SyntaxError: Unexpected token = in JSON at position 626
+
+ERROR in Error: Child compilation failed:
+  Module not found: SyntaxError: /home/kavia/workspace/code-generation/staffans-  80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directory   description file): SyntaxError: /home/kavia/workspace/code-generation/staffan  s-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (directo  ry description file): SyntaxError: /home/kavia/workspace/code-generation/staff  ans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (direc  tory description file): SyntaxError: /home/kavia/workspace/code-generation/sta  ffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (dir  ectory description file): SyntaxError: /home/kavia/workspace/code-generation/s  taffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/package.json (d  irectory description file): SyntaxError: Unexpected token = in JSON at positio  n 626
+  ModuleNotFoundError: Module not found: SyntaxError: /home/kavia/workspace/code  -generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/pa  ckage.json (directory description file): SyntaxError: /home/kavia/workspace/co  de-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_frontend/  package.json (directory description file): SyntaxError: /home/kavia/workspace/  code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_fronten  d/package.json (directory description file): SyntaxError: /home/kavia/workspac  e/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_front  end/package.json (directory description file): SyntaxError: /home/kavia/worksp  ace/code-generation/staffans-80th-celebration-quiz-98783-bd482d85/quiz_app_fro  ntend/package.json (directory description file): SyntaxError: Unexpected token   = in JSON at position 626
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/Compilation.js:2123:28      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :923:13
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :339:22
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :520:22
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :155:10
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :745:23
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/neo-async/async.js:2830:7
+      at done (/home/kavia/workspace/code-generation/staffans-80th-celebration-q  uiz-98783-bd482d85/quiz_app_frontend/node_modules/neo-async/async.js:2925:13)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/NormalModuleFactory.js  :1192:23
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:6  20:22
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:7  16:21
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:24:1)
+      at done (/home/kavia/workspace/code-generation/staffans-80th-celebration-q  uiz-98783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/cache/ResolverCa  chePlugin.js:355:13)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/webpack/lib/cache/ResolverCachePlu  gin.js:195:22
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:7  16:21
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Resolver.js:7  16:21
+      at eval (eval at create (/home/kavia/workspace/code-generation/staffans-80  th-celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/tapable/lib/  HookCodeFactory.js:33:10), <anonymous>:24:1)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/DescriptionFi  lePlugin.js:58:24
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/DescriptionFi  leUtils.js:146:21
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/forEachBail.j  s:39:13
+      at onJson (/home/kavia/workspace/code-generation/staffans-80th-celebration  -quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/Descr  iptionFileUtils.js:131:14)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/DescriptionFi  leUtils.js:81:15
+      at runCallbacks (/home/kavia/workspace/code-generation/staffans-80th-celeb  ration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib  /CachedInputFileSystem.js:52:4)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/CachedInputFi  leSystem.js:279:5
+      at Array.<anonymous> (/home/kavia/workspace/code-generation/staffans-80th-  celebration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolv  e/lib/CachedInputFileSystem.js:596:17)
+      at runCallbacks (/home/kavia/workspace/code-generation/staffans-80th-celeb  ration-quiz-98783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib  /CachedInputFileSystem.js:45:15)
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/enhanced-resolve/lib/CachedInputFi  leSystem.js:279:5
+      at /home/kavia/workspace/code-generation/staffans-80th-celebration-quiz-98  783-bd482d85/quiz_app_frontend/node_modules/graceful-fs/graceful-fs.js:123:16
+      at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read  _file_context:68:3)
+  
+  - Compilation.js:2123 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:2123:28
+  
+  - NormalModuleFactory.js:923 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:923:13
+  
+  
+  - NormalModuleFactory.js:339 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:339:22
+  
+  
+  - NormalModuleFactory.js:520 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:520:22
+  
+  - NormalModuleFactory.js:155 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:155:10
+  
+  - NormalModuleFactory.js:745 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:745:23
+  
+  - async.js:2830 
+    [quiz_app_frontend]/[neo-async]/async.js:2830:7
+  
+  - async.js:2925 done
+    [quiz_app_frontend]/[neo-async]/async.js:2925:13
+  
+  - NormalModuleFactory.js:1192 
+    [quiz_app_frontend]/[webpack]/lib/NormalModuleFactory.js:1192:23
+  
+  - Resolver.js:620 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:620:22
+  
+  - Resolver.js:716 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - ResolverCachePlugin.js:355 done
+    [quiz_app_frontend]/[webpack]/lib/cache/ResolverCachePlugin.js:355:13
+  
+  - ResolverCachePlugin.js:195 
+    [quiz_app_frontend]/[webpack]/lib/cache/ResolverCachePlugin.js:195:22
+  
+  - Resolver.js:716 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - Resolver.js:716 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - DescriptionFilePlugin.js:58 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:58:24
+  
+  - DescriptionFileUtils.js:146 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFileUtils.js:146:21
+  
+  - forEachBail.js:39 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/forEachBail.js:39:13
+  
+  - DescriptionFileUtils.js:131 onJson
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFileUtils.js:131:14
+  
+  - DescriptionFileUtils.js:81 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/DescriptionFileUtils.js:81:15
+  
+  - CachedInputFileSystem.js:52 runCallbacks
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:52:4
+  
+  - CachedInputFileSystem.js:279 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - CachedInputFileSystem.js:596 Array.<anonymous>
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:596:17
+  
+  - CachedInputFileSystem.js:45 runCallbacks
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:45:15
+  
+  - CachedInputFileSystem.js:279 
+    [quiz_app_frontend]/[enhanced-resolve]/lib/CachedInputFileSystem.js:279:5
+  
+  - graceful-fs.js:123 
+    [quiz_app_frontend]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - read_file_context:68 FSReqCallback.readFileAfterClose [as oncomplete]
+    node:internal/fs/read_file_context:68:3
+  
+  - child-compiler.js:211 
+    [quiz_app_frontend]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:629 finalCallback
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:629:5
+  
+  - Compiler.js:664 
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:664:11
+  
+  - Compiler.js:1350 
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:1350:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [quiz_app_frontend]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1346 
+    [quiz_app_frontend]/[webpack]/lib/Compiler.js:1346:33
+  
+  - Compilation.js:2938 finalCallback
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:2938:11
+  
+  - Compilation.js:3251 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:3251:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [quiz_app_frontend]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3244 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:3244:38
+  
+  
+  - Compilation.js:540 
+    [quiz_app_frontend]/[webpack]/lib/Compilation.js:540:10
+  
+  - SourceMapDevToolPlugin.js:607 
+    [quiz_app_frontend]/[webpack]/lib/SourceMapDevToolPlugin.js:607:10
+  
+  - async.js:2830 
+    [quiz_app_frontend]/[neo-async]/async.js:2830:7
+  
+  - async.js:2857 Object.each
+    [quiz_app_frontend]/[neo-async]/async.js:2857:9
+  
+  - SourceMapDevToolPlugin.js:423 
+    [quiz_app_frontend]/[webpack]/lib/SourceMapDevToolPlugin.js:423:17
+  
+  - async.js:2830 
+    [quiz_app_frontend]/[neo-async]/async.js:2830:7
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack compiled with 6 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
 webpack compiled successfully
