@@ -19,59 +19,7 @@ const FLAGS = [
     alt: "Swedish flag" },
 ];
 
-// Staffan-specific questions to mix with the general knowledge questions
-const STAFFAN_QUESTIONS = [
-  {
-    question: "What is Staffan Johnsson's favorite dessert?",
-    choices: ["Apple pie", "Chokladboll", "Pecan tart", "Semla"],
-    answer: 3,
-    category: "Staffan"
-  },
-  {
-    question: "Which city did Staffan live in the longest?",
-    choices: ["Stockholm", "San Francisco", "Göteborg", "St. Paul"],
-    answer: 0,
-    category: "Staffan"
-  },
-  {
-    question: "What is Staffan passionate about?",
-    choices: ["Sailing", "Rock climbing", "Piano", "All of the above"],
-    answer: 3,
-    category: "Staffan"
-  },
-  {
-    question: "In what year was Staffan born?",
-    choices: ["1944", "1943", "1942", "1940"],
-    answer: 1,
-    category: "Staffan"
-  },
-  {
-    question: "Which language does Staffan prefer for jokes?",
-    choices: ["Swedish", "English", "Both", "Neither"],
-    answer: 2,
-    category: "Staffan"
-  },
-  {
-    question: "What is Staffan's go-to beverage?",
-    choices: ["Coffee", "Tea", "Lemonade", "Water"],
-    answer: 0,
-    category: "Staffan"
-  },
-  {
-    question: "Which sport has Staffan recently taken up?",
-    choices: ["Padel", "Golf", "Tennis", "Walking"],
-    answer: 0,
-    category: "Staffan"
-  },
-];
 
-// Utilities
-function shuffle(array) {
-  return array
-    .map((a) => [a, Math.random()])
-    .sort((a, b) => a[1] - b[1])
-    .map((a) => a[0]);
-}
 
 // Welcome Screen with persistent leaderboard display
 function WelcomeScreen({ onStart, userName, setUserName, leaderboardData }) {
@@ -482,14 +430,12 @@ function App() {
     setSelected(null);
   }, [currIdx]);
 
-  // Start quiz: get mixed questions from all categories plus some Staffan questions
+  // Start quiz: get mixed questions from all categories including Staffan Personal questions
   function startQuiz() {
-    // Get 5 questions from the new quiz data and 2 Staffan-specific questions
-    const mixedQuestions = getRandomMixedQuestions(5);
-    const staffanQuestions = shuffle(STAFFAN_QUESTIONS).slice(0, 2);
-    const allQuestions = shuffle([...mixedQuestions, ...staffanQuestions]);
+    // Get 7 questions from all categories (now includes Staffan Personal questions)
+    const mixedQuestions = getRandomMixedQuestions(7);
     
-    setShuffledQ(allQuestions);
+    setShuffledQ(mixedQuestions);
     setScore(0);
     setCurrIdx(0);
     setSelected(null);

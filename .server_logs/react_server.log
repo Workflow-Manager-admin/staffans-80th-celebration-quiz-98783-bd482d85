@@ -81,3 +81,31 @@ webpack compiled successfully
 Compiling...
 Compiled successfully!
 webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+  Line 437:30:  'shuffle' is not defined            no-undef
+  Line 437:38:  'STAFFAN_QUESTIONS' is not defined  no-undef
+  Line 438:26:  'shuffle' is not defined            no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/App.js
+  Line 437:30:  'shuffle' is not defined            no-undef
+  Line 437:38:  'STAFFAN_QUESTIONS' is not defined  no-undef
+  Line 438:26:  'shuffle' is not defined            no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully

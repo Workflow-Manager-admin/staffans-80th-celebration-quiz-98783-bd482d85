@@ -516,6 +516,56 @@ export const QUIZ_QUESTIONS = [
     category: "Automotive Industry"
   },
 
+  // STAFFAN PERSONAL (8 questions)
+  {
+    question: "When was Staffan born?",
+    choices: ["June 27, 1945", "July 15, 1944", "May 12, 1946", "August 3, 1943"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+  {
+    question: "Where was Staffan born?",
+    choices: ["Boras, Sweden", "Stockholm, Sweden", "Gothenburg, Sweden", "Malmö, Sweden"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+  {
+    question: "In what sport was Staffan a champion for both his Collegiate and the Swedish Marines?",
+    choices: ["Tennis", "Hockey", "Soccer", "Swimming"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+  {
+    question: "What role did Staffan serve in the U.S. military?",
+    choices: ["U.S. Air Force Flight Surgeon", "U.S. Navy Officer", "U.S. Army Medic", "U.S. Marine Corps Engineer"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+  {
+    question: "What role did Staffan serve in the Swedish military?",
+    choices: ["Swedish Marine", "Swedish Air Force Pilot", "Swedish Navy Officer", "Swedish Army Captain"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+  {
+    question: "What city and state did Staffan live in when he first moved to the U.S.?",
+    choices: ["Augusta, Georgia", "Atlanta, Georgia", "Savannah, Georgia", "Columbus, Georgia"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+  {
+    question: "What was Staffan's first job in the U.S.?",
+    choices: ["Chemical Engineer", "Mechanical Engineer", "Civil Engineer", "Electrical Engineer"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+  {
+    question: "What was Staffan's favorite childhood meal?",
+    choices: ["Swedish meatballs", "Fish and potatoes", "Pancakes with lingonberries", "Reindeer stew"],
+    answer: 0,
+    category: "Staffan Personal"
+  },
+
   // SPACE EXPLORATION (16 questions)
   {
     question: "Which was the first human-made object to reach space?",
@@ -622,7 +672,7 @@ export function getQuestionsByCategory(category) {
 
 // Function to get a random mix of questions
 export function getRandomMixedQuestions(count = 7) {
-  const categories = ['Sweden', 'NHL Hockey', 'EU Politics', 'Aviation', 'Automotive Industry', 'Space Exploration'];
+  const categories = ['Sweden', 'NHL Hockey', 'EU Politics', 'Aviation', 'Automotive Industry', 'Space Exploration', 'Staffan Personal'];
   const questionsPerCategory = Math.floor(count / categories.length);
   const remainder = count % categories.length;
   
