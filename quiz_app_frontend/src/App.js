@@ -78,11 +78,11 @@ function WelcomeScreen({ onStart, userName, setUserName }) {
       <h1 id="quizTitle" className="quiz-title">
         🎉 Staffan Johnsson's 80th Birthday Quiz! 🎉
       </h1>
-      <div className="photo-container" aria-label="Photo of Staffan Johnsson smiling at a family celebration">
+      <div className="photo-container" aria-label="Photo of Staffan Johnsson celebrating with family">
         <img
           className="staffan-photo-img"
           src={staffanPhoto}
-          alt="Staffan Johnsson smiling at a family celebration"
+          alt="Staffan Johnsson celebrating his 80th birthday with family"
           width={160}
           height={160}
           style={{
