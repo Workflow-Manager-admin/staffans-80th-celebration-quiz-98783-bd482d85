@@ -1,7 +1,7 @@
-// PUBLIC_INTERFACE
+ // PUBLIC_INTERFACE
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
-import staffanPhoto from "./assets/20250701_184330_0050__062808-1_Patty_and_Matt_WED.JPG";
+import staffanPhoto from "./assets/20250701_185026_0050__062808-1_Patty_and_Matt_WED.JPG";
 
 // Color palette and constants (for easy reference/change)
 const COLORS = {
@@ -65,11 +65,9 @@ function shuffle(array) {
     .map((a) => a[0]);
 }
 
- 
-// Welcome Screen
+// Welcome Screen with only centered image (not circular, no caption or text under)
 function WelcomeScreen({ onStart, userName, setUserName }) {
   const [touched, setTouched] = useState(false);
-
   const isValid = userName.trim().length > 1;
 
   return (
@@ -78,29 +76,24 @@ function WelcomeScreen({ onStart, userName, setUserName }) {
       <h1 id="quizTitle" className="quiz-title">
         🎉 Staffan Johnsson's 80th Birthday Quiz! 🎉
       </h1>
-      <div className="photo-container" aria-label="Photo of Staffan Johnsson celebrating with family">
+      <div className="photo-container" aria-label="Photo of Staffan Johnsson celebrating with family" style={{width: "100%", display: "flex", justifyContent: "center"}}>
         <img
           className="staffan-photo-img"
           src={staffanPhoto}
           alt="Staffan Johnsson celebrating his 80th birthday with Patty and Matt"
-          width={160}
-          height={160}
           style={{
-            borderRadius: "80px",
-            background: "linear-gradient(135deg, #1227ca, #ffdd00 85%)",
-            boxShadow: "0 0 0 4px #ffdd00 inset, 0 3px 12px #0001",
-            objectFit: "cover",
-            maxWidth: "36vw",
-            minWidth: 88,
-            maxHeight: 160,
-            aspectRatio: "1",
-            marginBottom: "2px",
+            display: "block",
+            maxWidth: "320px",
+            width: "90vw",
+            height: "auto",
+            margin: "0 auto",
+            borderRadius: "0",
+            objectFit: "contain",
+            background: "#fff",
+            boxShadow: "0 6px 40px #22338818"
           }}
-          // Hide any default fallback or visual alt text
           draggable={false}
         />
-        {/* Note: The img alt remains for accessibility, but we do NOT render any fallback text, emoji or <span> if image fails. */}
-        <p className="photo-caption">Staffan—Turning 80 with style!</p>
       </div>
       <form
         className="name-form"
