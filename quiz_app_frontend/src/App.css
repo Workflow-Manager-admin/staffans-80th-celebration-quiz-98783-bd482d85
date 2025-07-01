@@ -149,6 +149,89 @@ body,
   cursor: pointer;
 }
 
+/* Welcome Screen Persistent Leaderboard */
+.welcome-leaderboard {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 450px;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px #22338815;
+  padding: 16px;
+  text-align: center;
+}
+
+.welcome-leaderboard-title {
+  font-size: 1.25rem;
+  color: var(--primary);
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.welcome-leaderboard-content {
+  width: 100%;
+}
+
+.welcome-leaderboard-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+  margin: 0 auto;
+}
+
+.welcome-leaderboard-table th,
+.welcome-leaderboard-table td {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.welcome-leaderboard-table th {
+  background: #f0f4ff;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.welcome-leaderboard-table tr:last-child td {
+  border-bottom: none;
+}
+
+.welcome-leaderboard .empty-leaderboard {
+  text-align: center;
+  color: #9c9c9c;
+  font-style: italic;
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.leaderboard-more {
+  margin-top: 8px;
+  color: #666;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+@media (max-width: 568px) {
+  .welcome-leaderboard {
+    margin-top: 16px;
+    padding: 12px;
+  }
+  
+  .welcome-leaderboard-title {
+    font-size: 1.1rem;
+  }
+  
+  .welcome-leaderboard-table {
+    font-size: 0.9rem;
+  }
+  
+  .welcome-leaderboard-table th,
+  .welcome-leaderboard-table td {
+    padding: 5px 6px;
+  }
+}
+
 .flag-banner {
   display: flex;
   align-items: center;

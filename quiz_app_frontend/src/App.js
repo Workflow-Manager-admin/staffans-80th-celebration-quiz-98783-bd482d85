@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 import staffanPhoto from "./assets/20250701_185306_Patty_and_Matt_WED.JPG";
+import { QUIZ_QUESTIONS, getRandomMixedQuestions } from "./quizData";
 
 // Color palette and constants (for easy reference/change)
 const COLORS = {
@@ -18,42 +19,49 @@ const FLAGS = [
     alt: "Swedish flag" },
 ];
 
-// Mock quiz questions (can be expanded up to 100 for full scope)
-const QUIZ_QUESTIONS = [
+// Staffan-specific questions to mix with the general knowledge questions
+const STAFFAN_QUESTIONS = [
   {
     question: "What is Staffan Johnsson's favorite dessert?",
     choices: ["Apple pie", "Chokladboll", "Pecan tart", "Semla"],
     answer: 3,
+    category: "Staffan"
   },
   {
     question: "Which city did Staffan live in the longest?",
     choices: ["Stockholm", "San Francisco", "Göteborg", "St. Paul"],
     answer: 0,
+    category: "Staffan"
   },
   {
     question: "What is Staffan passionate about?",
     choices: ["Sailing", "Rock climbing", "Piano", "All of the above"],
     answer: 3,
+    category: "Staffan"
   },
   {
     question: "In what year was Staffan born?",
     choices: ["1944", "1943", "1942", "1940"],
     answer: 1,
+    category: "Staffan"
   },
   {
     question: "Which language does Staffan prefer for jokes?",
     choices: ["Swedish", "English", "Both", "Neither"],
     answer: 2,
+    category: "Staffan"
   },
   {
     question: "What is Staffan's go-to beverage?",
     choices: ["Coffee", "Tea", "Lemonade", "Water"],
     answer: 0,
+    category: "Staffan"
   },
   {
     question: "Which sport has Staffan recently taken up?",
     choices: ["Padel", "Golf", "Tennis", "Walking"],
     answer: 0,
+    category: "Staffan"
   },
 ];
 
@@ -65,10 +73,11 @@ function shuffle(array) {
     .map((a) => a[0]);
 }
 
-// Welcome Screen with only centered image (not circular, no caption or text under)
-function WelcomeScreen({ onStart, userName, setUserName }) {
+// Welcome Screen with persistent leaderboard display
+function WelcomeScreen({ onStart, userName, setUserName, leaderboardData }) {
   const [touched, setTouched] = useState(false);
   const isValid = userName.trim().length > 1;
+  const sortedLeaderboard = [...leaderboardData].sort((a, b) => b.score - a.score);
 
   return (
     <div className="screen welcome-screen" aria-labelledby="quizTitle">
@@ -133,13 +142,41 @@ function WelcomeScreen({ onStart, userName, setUserName }) {
           Start Quiz
         </button>
       </form>
-      <div className="leaderboard-link">
-        <small>
-          Or, <a href="#leaderboard" onClick={onStart} tabIndex={0}>
-            view the leaderboard
-          </a>
-        </small>
+      
+      {/* Persistent Leaderboard Display */}
+      <div className="welcome-leaderboard">
+        <h3 className="welcome-leaderboard-title">🏆 Leaderboard</h3>
+        <div className="welcome-leaderboard-content">
+          {sortedLeaderboard.length === 0 ? (
+            <p className="empty-leaderboard">Be the first to play!</p>
+          ) : (
+            <table className="welcome-leaderboard-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sortedLeaderboard.slice(0, 5).map((row, idx) => (
+                  <tr key={row.name + row.score + idx}>
+                    <td>{idx + 1}</td>
+                    <td>{row.name}</td>
+                    <td>{row.score}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
+          {sortedLeaderboard.length > 5 && (
+            <p className="leaderboard-more">
+              ...and {sortedLeaderboard.length - 5} more players
+            </p>
+          )}
+        </div>
       </div>
+      
       <FlagBanner position="bottom" />
     </div>
   );
@@ -445,9 +482,14 @@ function App() {
     setSelected(null);
   }, [currIdx]);
 
-  // Start quiz: shuffle Qs and reset state
+  // Start quiz: get mixed questions from all categories plus some Staffan questions
   function startQuiz() {
-    setShuffledQ(shuffle(QUIZ_QUESTIONS).slice(0, 7));
+    // Get 5 questions from the new quiz data and 2 Staffan-specific questions
+    const mixedQuestions = getRandomMixedQuestions(5);
+    const staffanQuestions = shuffle(STAFFAN_QUESTIONS).slice(0, 2);
+    const allQuestions = shuffle([...mixedQuestions, ...staffanQuestions]);
+    
+    setShuffledQ(allQuestions);
     setScore(0);
     setCurrIdx(0);
     setSelected(null);
@@ -493,9 +535,10 @@ function App() {
   if (screen === "welcome")
     return (
       <WelcomeScreen
-        onStart={() => setScreen("quiz")}
+        onStart={startQuiz}
         userName={userName}
         setUserName={setUserName}
+        leaderboardData={getLeaderboard()}
       />
     );
 
