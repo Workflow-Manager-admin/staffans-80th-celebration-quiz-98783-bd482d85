@@ -1,7 +1,7 @@
 // PUBLIC_INTERFACE
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
-import staffanPhoto from "./assets/staffan.jpg";
+import staffanPhoto from "./assets/20250701_184330_0050__062808-1_Patty_and_Matt_WED.JPG";
 
 // Color palette and constants (for easy reference/change)
 const COLORS = {
@@ -82,7 +82,7 @@ function WelcomeScreen({ onStart, userName, setUserName }) {
         <img
           className="staffan-photo-img"
           src={staffanPhoto}
-          alt="Staffan Johnsson celebrating his 80th birthday with family"
+          alt="Staffan Johnsson celebrating his 80th birthday with Patty and Matt"
           width={160}
           height={160}
           style={{
