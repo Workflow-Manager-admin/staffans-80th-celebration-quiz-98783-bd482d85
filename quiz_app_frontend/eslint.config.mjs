@@ -13,6 +13,10 @@ export default [
       globals: {
         document: true,
         window: true,
+        requestAnimationFrame: true,
+        setTimeout: true,
+        cancelAnimationFrame: true,
+        clearTimeout: true,
         test: true,
         expect: true
       }
