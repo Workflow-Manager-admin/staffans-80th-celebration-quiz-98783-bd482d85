@@ -1,5 +1,7 @@
+// PUBLIC_INTERFACE
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
+import staffanPhoto from "./assets/staffan.jpg";
 
 // Color palette and constants (for easy reference/change)
 const COLORS = {
@@ -63,6 +65,7 @@ function shuffle(array) {
     .map((a) => a[0]);
 }
 
+ 
 // Welcome Screen
 function WelcomeScreen({ onStart, userName, setUserName }) {
   const [touched, setTouched] = useState(false);
@@ -75,11 +78,24 @@ function WelcomeScreen({ onStart, userName, setUserName }) {
       <h1 id="quizTitle" className="quiz-title">
         🎉 Staffan Johnsson's 80th Birthday Quiz! 🎉
       </h1>
-      <div className="photo-container" aria-label="Photo placeholder for Staffan">
-        <div
-          className="staffan-photo"
-          role="img"
-          aria-label="Staffan Johnsson photo placeholder"
+      <div className="photo-container" aria-label="Photo of Staffan Johnsson smiling at a family celebration">
+        <img
+          className="staffan-photo-img"
+          src={staffanPhoto}
+          alt="Staffan Johnsson smiling at a family celebration"
+          width={160}
+          height={160}
+          style={{
+            borderRadius: "80px",
+            background: "linear-gradient(135deg, #1227ca, #ffdd00 85%)",
+            boxShadow: "0 0 0 4px #ffdd00 inset, 0 3px 12px #0001",
+            objectFit: "cover",
+            maxWidth: "36vw",
+            minWidth: 88,
+            maxHeight: 160,
+            aspectRatio: "1",
+            marginBottom: "2px"
+          }}
         />
         <p className="photo-caption">Staffan—Turning 80 with style!</p>
       </div>
