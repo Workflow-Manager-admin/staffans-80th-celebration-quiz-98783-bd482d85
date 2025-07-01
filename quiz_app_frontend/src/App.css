@@ -49,31 +49,30 @@ body,
 }
 
 .staffan-photo-img {
-  /* Overridden for homepage center image: no circle, no border, no gradient, just centered and responsive */
+  /* Circular image styling for Staffan's photo */
   display: block;
-  max-width: 320px;
-  width: 90vw;
-  height: auto;
+  width: 280px;
+  height: 280px;
   margin: 0 auto;
-  border-radius: 0;
-  object-fit: contain;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 30% 40%;
   background: #fff;
   box-shadow: 0 6px 40px #22338818;
-  transition: none;
+  transition: transform 0.2s ease;
 }
 
 .staffan-photo-img:focus,
 .staffan-photo-img:hover {
   outline: 2px solid var(--accent);
+  transform: scale(1.02);
 }
 
-/* Remove circle/caption in mobile styles as well */
+/* Responsive circular image for mobile */
 @media (max-width: 568px) {
   .staffan-photo-img {
-    max-width: 94vw;
-    min-width: unset;
-    height: auto;
-    max-height: 86vw;
+    width: 240px;
+    height: 240px;
   }
 }
 

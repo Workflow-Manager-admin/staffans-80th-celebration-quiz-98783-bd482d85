@@ -83,12 +83,12 @@ function WelcomeScreen({ onStart, userName, setUserName }) {
           alt="Staffan Johnsson celebrating his 80th birthday with Patty and Matt"
           style={{
             display: "block",
-            maxWidth: "320px",
-            width: "90vw",
-            height: "auto",
+            width: "280px",
+            height: "280px",
             margin: "0 auto",
-            borderRadius: "0",
-            objectFit: "contain",
+            borderRadius: "50%",
+            objectFit: "cover",
+            objectPosition: "30% 40%",
             background: "#fff",
             boxShadow: "0 6px 40px #22338818"
           }}
