@@ -94,9 +94,12 @@ function WelcomeScreen({ onStart, userName, setUserName }) {
             minWidth: 88,
             maxHeight: 160,
             aspectRatio: "1",
-            marginBottom: "2px"
+            marginBottom: "2px",
           }}
+          // Hide any default fallback or visual alt text
+          draggable={false}
         />
+        {/* Note: The img alt remains for accessibility, but we do NOT render any fallback text, emoji or <span> if image fails. */}
         <p className="photo-caption">Staffan—Turning 80 with style!</p>
       </div>
       <form
