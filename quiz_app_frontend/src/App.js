@@ -1,7 +1,7 @@
  // PUBLIC_INTERFACE
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
-import staffanPhoto from "./assets/20250701_185026_0050__062808-1_Patty_and_Matt_WED.JPG";
+import staffanPhoto from "./assets/20250701_185306_Patty_and_Matt_WED.JPG";
 
 // Color palette and constants (for easy reference/change)
 const COLORS = {
